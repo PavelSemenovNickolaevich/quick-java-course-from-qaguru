@@ -40,8 +40,6 @@ public class Main {
 
         flat3.addSettler(settler6);
 
-        // flat4.addSettler(settler1);
-
         flat5.addSettler(settler8);
         flat5.addSettler(settler9);
 
@@ -58,6 +56,5 @@ public class Main {
         city.addHouse(house5);
 
         city.showSettledList();
-
     }
 }

@@ -3,14 +3,10 @@ package objects;
 import java.util.ArrayList;
 
 
-
 public class Flat {
     private int number;
     private ArrayList<Settlers> settlerList = new ArrayList<>();
     private final int DEFAULT_CAPACITY = 2;
-
-    public Flat() {
-    }
 
     public Flat(int number) {
         this.number = number;

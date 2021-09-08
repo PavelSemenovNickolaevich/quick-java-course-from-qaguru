@@ -7,9 +7,6 @@ public class House {
     private String address;
     private ArrayList<Flat> flatsList = new ArrayList<>();
 
-    public House() {
-    }
-
     public House(String address) {
         this.address = address;
     }
@@ -35,7 +32,7 @@ public class House {
         this.flatsList = flatsList;
     }
 
-    public void addFlat(Flat flat)  {
+    public void addFlat(Flat flat) {
         flatsList.add(flat);
     }
 }

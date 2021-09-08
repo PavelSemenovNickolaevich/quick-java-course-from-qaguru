@@ -6,10 +6,6 @@ public class City {
     private String name;
     private ArrayList<House> housesList  = new ArrayList<>();
 
-    public City() {
-
-    }
-
     public City(String name) {
         this.name = name;
     }
@@ -52,7 +48,6 @@ public class City {
             }
             System.out.println();
         }
-
     }
 
     public void addHouse(House house) {
